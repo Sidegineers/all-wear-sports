@@ -6,6 +6,16 @@
     <title>All Wear Sports - Premium Sports Equipment & Accessories</title>
     <meta name="description" content="Shop premium cricket equipment, jerseys, and accessories. Quality cricket bats, helmets, gloves, and more with fast UK delivery." />
     <meta name="author" content="All Wear Sports" />
+    <script>
+  // Handle redirect from 404.html
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.pathname) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
 
     <meta property="og:title" content="All Wear Sports - Premium Sports Equipment & Accessories" />
     <meta property="og:description" content="Your one-stop shop for premium sports equipment, accessories, and jerseys in the UK" />
@@ -16,4 +26,6 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+
+  
 </html>

@@ -19,7 +19,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/all-wear-sports">
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
