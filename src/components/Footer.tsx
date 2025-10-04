@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4 text-primary">All Wear Sports</h3>
             <p className="text-sm text-muted-foreground">
-              Your one-stop shop for sports cricket equipment, accessories, and jerseys.
+              Your one-stop shop for premium sports equipment, accessories, and jerseys.
             </p>
           </div>
           

@@ -17,7 +17,7 @@ const Hero = () => {
           Elevate Your Game
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          Premium cricket equipment, accessories, and jerseys for champions
+          Premium sports equipment, accessories, and jerseys for champions
         </p>
         <div className="flex gap-4 justify-center">
           <Link to="/shop">
